@@ -5,8 +5,8 @@ import (
 	"os"
 )
 
-func LoadConfig(configFile string, c interface{})error{
-	file, err := os.Open("/Users/shalini/Project/breakfast/config/json/" + configFile)
+func LoadConfig(configFile string, c interface{}) error {
+	file, err := os.Open("/Users/shalini/workspace/Project/breakfast/config/json/" + configFile)
 	if err != nil {
 		return err
 	}
